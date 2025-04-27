@@ -1,9 +1,11 @@
 from basics.DT import array_test_1, switch_test
 from basics.Inheritance import *
+from basics.Classes import *
+from ProtoType import *
 
 
 def main():
-    test_poly_1()
+    test_prototype()
 
 
 # when a script is running directly, __name__ has a value of main
