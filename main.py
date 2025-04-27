@@ -1,11 +1,12 @@
 from basics.DT import array_test_1, switch_test
 from basics.Inheritance import *
 from basics.Classes import *
-from ProtoType import *
+from DesignPatterns.ProtoType import *
+from DesignPatterns.StateMachine import test_sm
 
 
 def main():
-    test_prototype()
+    test_sm()
 
 
 # when a script is running directly, __name__ has a value of main
